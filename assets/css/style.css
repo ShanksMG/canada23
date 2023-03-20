@@ -355,3 +355,34 @@ footer {
 #map {
     padding-top: 100px;
 }
+
+#hotels{
+    width: 100%;
+}
+
+table {
+    border: #3a3a3a 1px solid;
+    width: 100%;
+}
+
+th, td {
+    border: #3a3a3a 1px solid;
+    width: 33%;
+    height: fit-content;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#hotels-hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("../images/Icefields_Parkway_British_Columbia_804073.jpg") no-repeat center center;
+
+    /*animates zoom effect on loading page*/
+    animation-name: hero-zoom;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
