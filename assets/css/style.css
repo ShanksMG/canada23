@@ -119,18 +119,18 @@ h1, h2 {
 /*Club ethos*/
 
 #quote{
-    height: 600px;
+    height: 300px;
     text-align: center;
+    vertical-align: text-bottom;
     margin: 20px 0;
+    padding-top: 10%;
 }
 
 #quote span{
     font-family: 'Kaushan Script', cursive;
     font-size: 280%;
     text-transform: none;
-    height: 100px;
-  line-height: 300px;
-  text-align: center;
+    vertical-align: text-bottom;
 }
 
 #left-about{
@@ -268,10 +268,11 @@ footer {
 /* Media queries*/
 
 @media screen and (max-width: 1200px) {
-    #club-ethos{
+    #quote{
         width: 65%;
-        height: 1200px;
+        height: 600px;
         margin: 0 auto;
+        padding-top: 10%;
     }
 
     #welcome {
@@ -319,10 +320,11 @@ footer {
         left: 0;
     }
 
-    #club-ethos {
+    #quote {
         width: 90%;
-        height: 1200px;
+        height: 600px;
         margin: 0 auto;
+        padding-top: 50%;
     }
 
     .left-about-heading, .right-about-heading {
